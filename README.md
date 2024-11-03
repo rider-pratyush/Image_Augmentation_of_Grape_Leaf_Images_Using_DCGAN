@@ -5,3 +5,5 @@ The quality of these generated images was assessed using the Fr´echet Inception
 Theimpact of this limited data augmentation on classification accuracy was evaluated using a pre-trained Inception V3 model from PyTorch. The paper aims to highlight the results of DCGAN-
 based data augmentation for grape leaf disease identification, even with a limited number of generated images. The findings contribute to understanding the feasibility and effectiveness of
 this approach for improving classification accuracy in scenarios with constrained resources.
+## About the Model
+In this model, both the generator and discriminator improve by playing a "min-max" game where the generator tries to create realistic images, and the discriminator becomes better at spotting fake ones.
