@@ -8,4 +8,7 @@ based data augmentation for grape leaf disease identification, even with a limit
 this approach for improving classification accuracy in scenarios with constrained resources.
 ## About the Model
 In this model, both the generator and discriminator improve by playing a "min-max" game where the generator tries to create realistic images, and the discriminator becomes better at spotting fake ones.
-# HELLO
+### Generator
+The generator generates the images from random noise.
+### Discriminator
+The discriminator tries to distinguish between the fake images genetated from the generator and the real images from the dataset.
