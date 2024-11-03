@@ -1,3 +1,4 @@
+
 ## Image Augmentation of Grape Leaf Images using DCGAN
 Deep learning models for leaf disease identification often suffer from limited training data, which leads to reduced performance. This paper explores the use of a Deep Convolutional Generative Adversarial Network (DCGAN) for data
 augmentation of grape leaf images to address this challenge. A DCGANmodel, based on the original DCGAN paper, was trained on a dataset of 4,062 authentic grape leaf images to generate16 synthetic samples. 
@@ -7,3 +8,4 @@ based data augmentation for grape leaf disease identification, even with a limit
 this approach for improving classification accuracy in scenarios with constrained resources.
 ## About the Model
 In this model, both the generator and discriminator improve by playing a "min-max" game where the generator tries to create realistic images, and the discriminator becomes better at spotting fake ones.
+# HELLO
